@@ -1567,11 +1567,12 @@ input, select, textarea {
 				flex-wrap: wrap;
 			}
 
-			#main #work .workContainer div, .workContainer img {
+			#main #work .workContainer div, .workContainer img, .workContainer a {
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
-				width: 75%;
+				width: 90%;
+				border-bottom: none;
 			}
 
 			#main article.active {
@@ -1682,3 +1683,24 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Projects */
+		.PortfolioSiteEmbed embed{
+			width: 100%;
+			height:400px;
+		}
+
+			.portfolioNewTab {
+				display: flex;
+				justify-content: center;
+			}
+
+			.portfolioNewTab a {
+				border: 1px solid white;
+				padding: 5px;
+			}
+
+			.portfolioNewTab a:hover {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+

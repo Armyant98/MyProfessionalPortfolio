@@ -399,3 +399,20 @@
 					});
 
 })(jQuery);
+
+// Animated background 
+VANTA.NET({
+	el: "#bg",
+	mouseControls: true,
+	touchControls: true,
+	gyroControls: false,
+	minHeight: 200.00,
+	minWidth: 200.00,
+	scale: 1.00,
+	scaleMobile: 1.00,
+	color: 0xfb8e0,
+	backgroundColor: 0x182031,
+	points: 20.00,
+	maxDistance: 29.00,
+	spacing: 50.00
+})

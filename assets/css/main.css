@@ -657,7 +657,7 @@ a, a:hover, a:active{
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			/* background-color: rgba(19, 21, 25, 0.5); */
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -705,13 +705,20 @@ a, a:hover, a:active{
 			}
 
 		.image.main {
-			display: block;
-			margin: 2.5rem 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 100%;
+			background-color: none;
+			color: none;
+			
 		}
 
 			.image.main img {
-				width: 100%;
+				
+				height: 15em;
+				width: auto;
+				border-radius: 5px;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1685,6 +1692,7 @@ a, a:hover, a:active{
 			background-color: rgba(9, 87, 99, 0.80);
 			border-radius: 4px;
 			opacity: 0;
+			margin-top: 100px;
 		}
 
 			#main #services button a {
@@ -1797,6 +1805,13 @@ a, a:hover, a:active{
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
+		}
+
+		@media screen and (max-width: 380px){
+			#main article h2 {
+				font-size: 1em !important;
+				width: 50% !important;
+			}
 		}
 
 /* Footer */

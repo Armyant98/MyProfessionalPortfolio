@@ -1590,6 +1590,7 @@ a, a:hover, a:active{
 			flex-direction: column;
 			width: 100%;
 			height:fit-content;
+			text-align: center;
 		}
 
 		

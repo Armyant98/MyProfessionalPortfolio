@@ -86,7 +86,7 @@ input, select, textarea {
 
 	}
 	html {
-		scroll-behavior: smooth;
+		scroll-behavior: smooth !important;
 	  }
 
 	html {

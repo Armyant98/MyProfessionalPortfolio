@@ -1741,6 +1741,7 @@ a, a:hover, a:active{
 				justify-content: center;
 				width: 90%;
 				border-bottom: none;
+				text-align: center;
 			}
 
 			#main article.active {
